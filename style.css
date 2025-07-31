@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500&display=swap');
 
 :root{
-    --red:#ff1a1a;
+    --red: #ff1a1a;
+    --dark: #000000;
 }
 
 *{
@@ -48,7 +49,7 @@ section{
     padding-top: 11rem;
 }
 
-.btn{
+/* .btn{
     display: inline-block;
     padding:.7rem 4rem;
     font-size: 2rem;
@@ -59,6 +60,20 @@ section{
 }
 
 .btn:hover{
+    transform:scale(1.02);
+} */
+
+.btnSpecial{
+    display: inline-block;
+    padding:.7rem 4rem;
+    font-size: 2rem;
+    color:#fff;
+    background:var(--red);
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+
+.btnSpecial:hover{
     transform:scale(1.02);
 }
 
@@ -125,11 +140,16 @@ header .navbar ul li a:hover{
     display: none;
 }
 
+.logos{
+    width: 60px;
+}
+
 .home{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    /* background-color: #09bce0; */
     background-color: #333;
     /* background:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), url(../images/home-bg.jpg) no-repeat;
     background-size: cover;
@@ -162,7 +182,7 @@ header .navbar ul li a:hover{
 }
 
 .home .content p{
-    color:#aaa;
+    color:#d44d4d;
     font-size: 2.5rem;
     padding:1rem 0;
 }
