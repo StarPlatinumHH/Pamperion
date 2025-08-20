@@ -1,4 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@100&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@200&family=Noto+Serif+Armenian:wght@100..900&display=swap'); */
+
+/* @font-face {
+    font-family: 'BraindYerevan.ptf';
+    src: url('fonts/BraindYerevan.ptf-Regular.woff2') format('woff2'),
+         url('fonts/BraindYerevan.ptf-Regular.woff') format('woff'),
+         url('fonts/BraindYerevan.ptf-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'MyFont', sans-serif;
+} */
 
 :root{
     --red: #1877F2;
@@ -247,7 +262,7 @@ header .navbar ul li a:hover{
     margin:0 5rem;
     margin-top: -3.7rem;
     padding:.5rem 2rem;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
 }
 
 .gallery .box-container .box .info p{
@@ -307,6 +322,7 @@ header .navbar ul li a:hover{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    min-width: 10rem;
 }
 .pam .box-container{
     display: flex;
@@ -321,8 +337,8 @@ header .navbar ul li a:hover{
     background:#fff;
     border:.1rem solid rgba(0,0,0,.1);
     text-align: center;
-    width:27rem;
-    max-width:27rem;
+    width: 18rem;
+    max-width: 27rem;
 }
 
 .pam .box-container .box{
@@ -331,7 +347,7 @@ header .navbar ul li a:hover{
     background:#fff;
     border:.1rem solid rgba(0,0,0,.1);
     text-align: center;
-    width:27rem;
+    width:18rem;
 }
 
 .product .box-container .box:hover{
@@ -514,4 +530,14 @@ header .navbar ul li a:hover{
         width: 100%;
     }
 
+}
+
+
+/* Unique settings */
+.huggies_img{
+    width: 14.3rem;
+}
+
+.libero_img{
+    width: 14rem;
 }
